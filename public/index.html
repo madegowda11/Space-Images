@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Space Images (NASA APOD)</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header>
+    <h1>Space Images By NASA APOD</h1>
+    <p>Get today's space image, pick a date, or fetch a random image.</p>
+  </header>
+
+  <main>
+    <section class="controls">
+      <label>
+        Date:
+        <input type="date" id="dateInput" />
+      </label>
+      <button id="getByDate">Get Image</button>
+      <button id="getToday">Today's Image</button>
+      <button id="getRandom">Random Image</button>
+    </section>
+
+    <section id="result" class="result">
+      <!-- populated by app.js -->
+    </section>
+  </main>
+
+  <footer>
+    <small>Powered by NASA APOD API</small>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
