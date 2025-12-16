@@ -102,7 +102,7 @@ If you find bugs or want features, open an issue on this repository.
 o6ixYloELK4VQaxEDIUtkzWlKzGaNqgab8ZfoeXm
 ```
 
-## Live Project Link
+## Project Link
 ```
 https://6pmz9nvk-3000.inc1.devtunnels.ms/
 ```
